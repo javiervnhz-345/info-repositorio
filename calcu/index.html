@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Javier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <input type="number" id="num1" placeholder="Num1">
+        <input type="number" id="num2" placeholder="Num2">
+        
+        <button class="suma" onclick="suma()">+</button>
+        <button class="resta" onclick="resta()">-</button>
+        <button class="multiplicacion" onclick="multiplicacion()">*</button>
+        <button class="division" onclick="division()">÷</button>
+        <button class="potenciacion" onclick="potenciacion()">^</button>
+        <button class="raizcuadrada" onclick="raizcuadrada()">√</button>
+        <button class="borrar" onclick="borrar()">CE</button>
+
+        <h2 id="salida"></h2>
+    </div>
+    
+    <footer>
+        <span>©Javier Vanegas</span>
+    </footer>
+
+    <script src="calcu.js"></script>
+</body>
+</html>
